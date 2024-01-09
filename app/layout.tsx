@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import Image from 'next/image';
 import './globals.css'
+import Header from './components/Header'
 
 export const metadata: Metadata = {
   title: 'imperez',
@@ -12,13 +12,12 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" data-theme="corporate">
+      <head>
+        <link rel="preconnect" href="https://maxst.icons8.com/" />
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></link>
+      </head>
       <body className="bg-slate-800 text-stone-200 h-screen">
-        <header className="flex flex-col md:flex-row items-center md:justify-between px-4 border-b py-4 md:py-0 border-slate-500">
-          <a href="/"><Image src="/img/site-logo.png" alt="imperez logo" width="300" height="86" /></a>
-          <nav className="flex justify-center">
-            <a className="btn btn-primary text-white md:my-4" href="https://www.linkedin.com/in/imperez/" target="_blank" >LinkedIn</a>
-          </nav>
-        </header>
+        <Header />
         <main className="px-4">
           {children}
         </main>
