@@ -1,6 +1,11 @@
 import { all } from "@/src/repositories/projects";
 import Project from "@/src/components/Project";
 import PageHeading from "@/src/components/ui/PageHeading";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'projects - imperez',
+}
 
 export default function Projects() {
     return (
