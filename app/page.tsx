@@ -14,7 +14,7 @@ export default function Home() {
     </section>
     <section className="flex flex-col gap-4">
       <h2 className="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">What I&apos;ve worked on</h2>
-      <ol className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <ol className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {featured().map(project => {
           return <li key={project.title}>
             <Project project={project} />
