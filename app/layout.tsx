@@ -4,9 +4,6 @@ import SiteHeader from '../src/components/SiteHeader'
 
 export const metadata: Metadata = {
   title: 'imperez',
-  twitter: {
-    images: '/img/social.png'
-  }
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
