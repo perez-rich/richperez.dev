@@ -4,8 +4,8 @@ import SiteHeader from '../src/components/SiteHeader'
 
 export const metadata: Metadata = {
   title: 'imperez',
-  other: {
-    icon: "/favicon.png"
+  twitter: {
+    images: '/img/social.png'
   }
 }
 
