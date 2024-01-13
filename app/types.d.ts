@@ -1,4 +1,4 @@
-type Skill = 'laravel' | 'php' | 'mysql' | 'html' | 'css' | 'javascript';
+type Skill = 'laravel' | 'php' | 'mysql' | 'html' | 'css' | 'js' | 'vue' | 'react';
 type Area = 'frontend' | 'backend' | 'api';
 
 interface ProjectItem {

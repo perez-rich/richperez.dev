@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="py-10">
           <PageHeading label="Projects" />
         </div>
-        <ol className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <ol className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {all().map(project => {
             return <li key={project.title}>
               <Project project={project} />
