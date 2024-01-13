@@ -9,7 +9,7 @@ export default function SiteHeader() {
         <Image src="/img/site-logo.png" alt="imperez logo" width="300" height="86" />
       </Link>
       <nav className="flex gap-2 justify-center">
-        <Link className="btn btn-ghost md:my-2" href="/projects">Projects</Link>
+        <Link className="btn btn-ghost -mt-2 md:my-2" href="/projects">Projects</Link>
         <ResumeButton />
         <LinkedInButton />
       </nav>
