@@ -4,6 +4,7 @@ import SiteHeader from '../src/components/SiteHeader'
 
 export const metadata: Metadata = {
   title: 'imperez',
+  metadataBase: new URL('https://www.imperez.com'),
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
