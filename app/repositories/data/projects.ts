@@ -1,12 +1,35 @@
 const json: Array<Project> = [
     {
         type: 'featured',
-        title: '',
-        description: '',
-        url: '',
-        image: '',
-        skills: ['laravel'],
-        areas: ['backend']
+        title: 'The Shade Store',
+        url: 'https://www.theshadestore.com',
+        image: '/img/projects/theshadestore.jpg',
+        skills: ['css', 'html', 'javascript', 'mysql', 'php'],
+        areas: ['backend', 'frontend', 'api']
+    },
+    {
+        type: 'featured',
+        title: 'The Shade Store',
+        url: 'https://www.theshadestore.com',
+        image: '/img/projects/theshadestore.jpg',
+        skills: ['css', 'html', 'javascript', 'mysql', 'php'],
+        areas: ['backend', 'frontend', 'api']
+    },
+    {
+        type: 'featured',
+        title: 'The Shade Store',
+        url: 'https://www.theshadestore.com',
+        image: '/img/projects/theshadestore.jpg',
+        skills: ['css', 'html', 'javascript', 'mysql', 'php'],
+        areas: ['backend', 'frontend', 'api']
+    },
+    {
+        type: 'featured',
+        title: 'The Shade Store',
+        url: 'https://www.theshadestore.com',
+        image: '/img/projects/theshadestore.jpg',
+        skills: ['css', 'html', 'javascript', 'mysql', 'php'],
+        areas: ['backend', 'frontend', 'api']
     }
 ];
 
