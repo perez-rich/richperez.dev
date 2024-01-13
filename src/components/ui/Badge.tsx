@@ -3,7 +3,7 @@ interface BadgeProps {
 }
 
 export default function Badge({label}: BadgeProps) {
-    return <span className="rounded-sm bg-slate-300 text-black font-bold text-sm px-2 py-1">
+    return <span className="rounded-sm bg-slate-300 text-black font-bold text-xs px-2 py-1">
         {label}
     </span>
 }
