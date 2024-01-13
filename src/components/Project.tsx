@@ -26,7 +26,7 @@ export default function Project({ project }: ProjectProps) {
                     {project.areas.map(area => <Badge key={area} label={area} />)}
                 </div>
             </div>
-            <Link className="btn btn-ghost" target="_blank" href={project.url}>View Project</Link>
+            <Link className="btn btn-link text-white" target="_blank" href={project.url}>View Project</Link>
         </div>
     </>;
 }
