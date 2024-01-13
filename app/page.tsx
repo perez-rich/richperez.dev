@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import { featured } from './repositories/projects';
-import Project from './components/Project';
 import Link from 'next/link';
+import Image from 'next/image';
+import { featured } from '@/src/repositories/projects';
+import Project from '@/src/components/Project';
 
 export default function Home() {
   const now = new Date()
@@ -16,13 +16,13 @@ export default function Home() {
       <h2 className="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">What I've worked on</h2>
       <ol className="grid grid-cols-1 md:grid-cols-4 gap-8">
         {featured().map(project => {
-          return <li>
+          return <li key={project.title}>
             <Project project={project} />
           </li>
         })}
       </ol>
       <div className="flex justify-center">
-        <Link className="bg-red-700 px-4 py-2 rounded-sm text-lg font-bold" href="/projects">
+        <Link className="btn btn-error text-white" href="/projects">
           View More Projects <i className="las la-chevron-right"></i>
         </Link>
       </div>

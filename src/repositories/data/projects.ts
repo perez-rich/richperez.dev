@@ -1,4 +1,4 @@
-const json: Array<Project> = [
+const json: Array<ProjectItem> = [
     {
         type: 'featured',
         title: 'The Shade Store',
