@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from './components/Header'
+import SiteHeader from '../src/components/SiteHeader'
 
 export const metadata: Metadata = {
   title: 'imperez',
@@ -16,9 +16,9 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         <link rel="preconnect" href="https://maxst.icons8.com/" />
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></link>
       </head>
-      <body className="bg-slate-800 text-stone-200 h-screen">
-        <Header />
-        <main className="px-4">
+      <body className="bg-slate-800 text-stone-200">
+        <SiteHeader />
+        <main className="px-4 pb-10">
           {children}
         </main>
       </body>
