@@ -10,7 +10,9 @@ export default function Home() {
   return <div className="flex flex-col gap-20">
     <section className="mx-auto max-w-2xl font-mono text-2xl text-center">
       <Image className="rounded-full mx-auto my-10" src="/img/rich.jpg" alt="picture of rich perez" width="100" height="100" />
-      <p>Hello 👋🏽 my name is <span className="font-black text-white">Rich Perez</span> and I am a full-stack developer with {years}+ years of experience.</p>
+      <p>
+        Hello 👋🏽 my name is <strong className="font-black text-white">Rich Perez</strong> and I am a Full-Stack Developer. I have built websites, CMS, and REST APIs for large and small companies.
+      </p>
     </section>
     <section className="flex flex-col gap-4">
       <h2 className="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">What I&apos;ve worked on</h2>
