@@ -12,7 +12,7 @@
     <div class="py-10">
       <PageHeading label="Projects" />
     </div>
-    <ol class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <ol class="grid grid-cols-1 md:grid-cols-4 gap-1">
       {#each all() as project (project.title)}
         <li>
           <Project project={project} />
