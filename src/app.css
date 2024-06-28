@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-section a {
+section a,
+footer a {
     text-decoration: underline;
 }

@@ -8,7 +8,7 @@
     <img src="/img/site-logo.png" alt="imperez logo" width="300" height="86" />
   </a>
   <nav class="flex gap-2 justify-center">
-    <a class="btn btn-ghost -mt-2 md:my-2" href="/about">About</a>
-    <a class="btn btn-ghost -mt-2 md:my-2" href="/projects">Projects</a>
+    <a class="btn btn-link text-white" href="/about">About</a>
+    <a class="btn btn-link text-white" href="/projects">Projects</a>
   </nav>
 </header>
