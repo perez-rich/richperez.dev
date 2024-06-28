@@ -13,7 +13,7 @@
 
 <section class="mx-auto max-w-2xl flex flex-col gap-2">
     <h2 class="text-2xl font-bold font-mono">Coding Tools</h2>
-    <ul class="list-disc flex flex-col gap-2">
+    <ul class="px-4 list-disc flex flex-col gap-2">
         <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> is my editor I use daily across multiple projects. I've also started trying out <a href="https://www.jetbrains.com/fleet/" target="_blank">Jetbrains Fleet</a> editor.</li>
         <li>I use <a href="https://www.apple.com/safari/" target="_blank">Safari</a> as my main browser. I'm loving it's tight integration across Apple devices and of course the privacy features.</li>
         <li>For REST APIs or dynamic websites I use <a href="https://laravel.com" target="_blank">Laravel</a> and <a href="https://www.php.net" target="_blank">PHP 8+</a> with some <a href="https://www.mysql.com" target="_blank">MySQL 8</a> thrown in.</li>
@@ -25,7 +25,7 @@
 
 <section class="mx-auto max-w-2xl flex flex-col gap-2 mt-10">
     <h2 class="text-2xl font-bold font-mono">Computer & Devices</h2>
-    <ul class="list-disc flex flex-col gap-2">
+    <ul class="px-4 list-disc flex flex-col gap-2">
         <li>I work off my 14 inch M1 Macbook Pro. I do not use multiple monitors and opt for the single laptop screen.</li>
         <li>My daily mobile device is an <a href="https://www.apple.com/iphone-15-pro/" target="_blank">iPhone 15 Pro</a> with the Blue Titanium finish.</li>
         <li>For my health tracking needs I wear an <a href="https://www.apple.com/apple-watch-series-9/" target="_blank">Apple Watch Series 9</a>.</li>

@@ -15,7 +15,7 @@
 
 <section class="mx-auto max-w-2xl flex flex-col gap-2">
     <h2 class="text-2xl font-bold font-mono">Favorite Wrestlers</h2>
-    <ol class="flex flex-col gap-2 list-decimal">
+    <ol class="px-6 flex flex-col gap-2 list-decimal">
         <li>Eddie Guerrero - <a href="https://en.wikipedia.org/wiki/Eddie_Guerrero" target="_blank">Bio</a></li>
         <li>Scott Hall (aka Razor Ramon) - <a href="https://en.wikipedia.org/wiki/Scott_Hall" target="_blank">Bio</a></li>
         <li>Rey Mysterio - <a href="https://en.wikipedia.org/wiki/Rey_Mysterio" target="_blank">Bio</a></li>
@@ -28,7 +28,7 @@
 
 <section class="mx-auto max-w-2xl flex flex-col gap-2 mt-10">
     <h2 class="text-2xl font-bold font-mono">Favorite Matches</h2>
-    <ol class="flex flex-col gap-2 list-decimal">
+    <ol class="px-6 flex flex-col gap-2 list-decimal">
         <li>Eddie Guerrero vs Rey Mysterio (halloween havoc 1997) - <a href="https://www.youtube.com/watch?v=sqRYKCH8dUc" target="_blank">Watch</a></li>
         <li>Razor Ramon vs Shawn Michaels (WrestleMania 10 Ladder Match) - <a href="https://www.youtube.com/watch?v=YegEqMalt1Y" target="_blank">Watch</a></li>
         <li>The Rock vs Hulk Hogan (WrestleMania X8) - <a href="https://www.youtube.com/watch?v=hRg_vJvyMC8" target="_blank">Watch</a></li>
