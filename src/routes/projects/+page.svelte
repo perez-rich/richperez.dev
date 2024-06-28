@@ -4,6 +4,10 @@
     import { all } from "$lib/repositories/projects";
 </script>
 
+<svelte:head>
+    <title>Rich Perez - Projects - Web Developer</title>
+</svelte:head>
+
 <section class="flex flex-col gap-4">
     <div class="py-10">
       <PageHeading label="Projects" />
