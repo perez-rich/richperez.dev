@@ -1,0 +1,7 @@
+<script lang="ts">
+    export let label: string;
+</script>
+
+<span class="rounded-sm bg-slate-300 text-black font-bold text-xs px-2 py-1">
+    {label}
+</span>
