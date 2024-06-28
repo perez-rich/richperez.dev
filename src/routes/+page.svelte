@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { featured } from '$lib/repositories/projects';
+    import { all } from '$lib/repositories/projects';
     import Project from '$lib/components/Project.svelte';
 </script>
 
@@ -17,16 +17,11 @@
   <section class="flex flex-col gap-4">
     <h2 class="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">What I&apos;ve worked on</h2>
     <ol class="grid grid-cols-1 md:grid-cols-4 gap-1">
-      {#each featured() as project (project.title)}
+      {#each all() as project (project.title)}
         <li>
           <Project project={project} />
         </li>
       {/each}
     </ol>
-    <div class="flex justify-center">
-      <a class="btn btn-error text-white" href="/projects">
-        View More Projects <i class="las la-chevron-right"></i>
-      </a>
-    </div>
   </section>
 </div>
