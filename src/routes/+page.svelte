@@ -1,9 +1,6 @@
 <script lang="ts">
     import { featured } from '$lib/repositories/projects';
     import Project from '$lib/components/Project.svelte';
-
-    const now = new Date()
-    const years = now.getFullYear() - 2007;
 </script>
 
 <svelte:head>
