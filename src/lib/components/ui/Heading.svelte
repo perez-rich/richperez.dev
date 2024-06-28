@@ -2,4 +2,4 @@
     export let label: string;
 </script>
 
-<h3 class="text-2xl font-bold py-2">{label}</h3>
+<h3 class="text-2xl font-bold">{label}</h3>

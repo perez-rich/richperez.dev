@@ -16,12 +16,10 @@
   </section>
   <section class="flex flex-col gap-4">
     <h2 class="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">What I&apos;ve worked on</h2>
-    <ol class="grid grid-cols-1 md:grid-cols-4 gap-1">
+    <div class="flex flex-col gap-10">
       {#each all() as project (project.title)}
-        <li>
           <Project project={project} />
-        </li>
       {/each}
-    </ol>
+    </div>
   </section>
 </div>
