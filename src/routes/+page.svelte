@@ -6,6 +6,9 @@
     const years = now.getFullYear() - 2007;
 </script>
 
+<svelte:head>
+    <title>Rich Perez - Web Developer</title>
+</svelte:head>
 
 <div class="flex flex-col gap-20">
   <section class="mx-auto max-w-2xl font-mono text-xl md:text-2xl text-center">
