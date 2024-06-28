@@ -4,7 +4,7 @@ const json: Array<ProjectItem> = [
         title: 'Specialty Lighting',
         url: 'https://www.specialty-lighting.com',
         image: '/img/projects/specialtylighting.jpg',
-        description: 'I worked with Specialty Lighting to create a rebuilt public website as well as a CMS. Their main goal was to be able to manage their large volume of products and update their website via the admin CMS.',
+        description: 'I worked with Specialty Lighting to rebuild their public website and give them an actual CMS. Their main goal was to be able to manage and configure their large volume of lighting fixture products and update their website as needed.',
         skills: ['css', 'html', 'js', 'vue', 'mysql', 'laravel'],
         areas: ['backend', 'frontend']
     },
@@ -13,7 +13,7 @@ const json: Array<ProjectItem> = [
         title: 'Gifthorse',
         url: 'https://www.gifthorse.co',
         image: '/img/projects/gifthorse.jpg',
-        description: 'The team at Gifthorse had a simple idea to create a crowdsourced electronic birthday card. I worked with them to establish wireframes, design and then implement all important details for their MVP product launch.',
+        description: 'The team at Gifthorse wanted to create a crowdsourced electronic birthday card. I worked with them to establish wireframes and design and build out all of the essential details for their MVP product launch.',
         skills: ['css', 'html', 'js', 'vue', 'mysql', 'laravel'],
         areas: ['backend', 'frontend']
     },
@@ -22,7 +22,7 @@ const json: Array<ProjectItem> = [
         title: 'The Daily Smark',
         url: 'https://www.thedailysmark.com/',
         image: '/img/projects/thedailysmark.png',
-        description: "I wanted an excuse to make a challenging product that combined America's favorite past time, Professional Wrestling of course. In the end, I created a news and podcast aggregrator that works on your web browser, iPhone and iPad.",
+        description: "I wanted to build a product aggregating publicly available news and podcasts focused on professional wrestling. I was able to pull into multiple sources of wrestling news, videos, and podcasts that helped create a one-stop shop for wrestling content.",
         skills: ['css', 'html', 'js', 'svelte', 'mysql', 'laravel', 'swift'],
         areas: ['backend', 'frontend', 'api', 'ios']
     },
@@ -31,7 +31,7 @@ const json: Array<ProjectItem> = [
         title: 'Tonight Wrestling',
         url: 'https://www.tonightwrestling.com/',
         image: '/img/projects/tonightwrestling.png',
-        description: 'Looking for a next challenge I figured there must be a way to display upcoming live events and TV shows for pro wrestling. With a little elbow grease and keyboard clicks I was able to build a website that gathers all this data together.',
+        description: 'Looking for a next challenge, I knew there must be a way to display upcoming live events and TV shows for pro wrestling. With some elbow grease, I built a website that gathers all this data in one package.',
         skills: ['css', 'html', 'js', 'svelte', 'mysql', 'laravel'],
         areas: ['backend', 'frontend', 'api']
     },
