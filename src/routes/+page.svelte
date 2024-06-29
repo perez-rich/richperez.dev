@@ -9,9 +9,9 @@
 
 <div class="flex flex-col gap-20">
   <section class="mx-auto max-w-2xl font-mono text-xl md:text-2xl text-center">
-    <img class="rounded-full mx-auto my-10" src="/img/rich.jpg" alt="picture of rich perez" width="100" height="100" />
+    <img class="rounded-full mx-auto my-10" src="/img/rich.jpg" alt="rich perez" width="100" height="100" />
     <p>
-      Hello 👋🏽 my name is <strong class="font-black text-white">Rich Perez</strong> and I am a Full-Stack Developer. I have built websites, CMS, and REST APIs for large and small companies.
+      👋🏽 My name is <a class="font-black text-stone-200" href="/about">Rich Perez</a> and welcome to my space on the internet. I'm a dad, <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for clients and my own side projects.
     </p>
   </section>
   <section class="flex flex-col gap-4">
