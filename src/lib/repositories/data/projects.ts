@@ -1,5 +1,14 @@
 const json: Array<ProjectItem> = [
     {
+        type: 'side project',
+        title: 'The Daily Smark',
+        url: 'https://www.thedailysmark.com/',
+        image: '/img/projects/thedailysmark.png',
+        description: "I wanted to build a product aggregating publicly available news and podcasts focused on professional wrestling. I was able to pull into multiple sources of wrestling news, videos, and podcasts that helped create a one-stop shop for wrestling content.",
+        skills: ['css', 'html', 'js', 'svelte', 'mysql', 'laravel', 'swift'],
+        areas: ['backend', 'frontend', 'api', 'ios']
+    },
+    {
         type: 'client',
         title: 'Specialty Lighting',
         url: 'https://www.specialty-lighting.com',
@@ -16,15 +25,6 @@ const json: Array<ProjectItem> = [
         description: 'The team at Gifthorse wanted to create a crowdsourced electronic birthday card. I worked with them to establish wireframes and design and build out all of the essential details for their MVP product launch.',
         skills: ['css', 'html', 'js', 'vue', 'mysql', 'laravel'],
         areas: ['backend', 'frontend']
-    },
-    {
-        type: 'side project',
-        title: 'The Daily Smark',
-        url: 'https://www.thedailysmark.com/',
-        image: '/img/projects/thedailysmark.png',
-        description: "I wanted to build a product aggregating publicly available news and podcasts focused on professional wrestling. I was able to pull into multiple sources of wrestling news, videos, and podcasts that helped create a one-stop shop for wrestling content.",
-        skills: ['css', 'html', 'js', 'svelte', 'mysql', 'laravel', 'swift'],
-        areas: ['backend', 'frontend', 'api', 'ios']
     },
     {
         type: 'side project',
