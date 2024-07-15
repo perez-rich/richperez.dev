@@ -3,11 +3,11 @@
 </script>
 
 <svelte:head>
-	<title>WFH Guidelines - Thoughts - Rich Perez - Web Developer</title>
+	<title>On Working From Home - Thoughts - Rich Perez - Web Developer</title>
 </svelte:head>
 
 <section class="mx-auto max-w-2xl font-mono text-xl md:text-2xl text-center py-10">
-	<PageHeading label="WFH Guidelines"/>
+	<PageHeading label="On Working From Home"/>
 	<p>I've been Working From Home (a.k.a. WFH) since COVID started in 2020. Over the years I've come to what I feel are proper guidelines to stay productive.</p>
 </section>
 

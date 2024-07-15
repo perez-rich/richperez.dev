@@ -14,11 +14,23 @@
       👋🏽 My name is <a href="/about">Rich Perez</a> and welcome to my space on the internet. I'm a dad, <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for clients and my own side projects.
     </p>
   </section>
-  <section class="flex gap-4 bg-slate-900 p-4 rounded-sm justify-center items-center">
-    <h2 class="text-2xl font-bold font-mono">My Thoughts</h2>
-    <nav class="text-center">
-      <a href="/thoughts/wfh-guidelines">WFH Guidelines</a>
-    </nav>
+  <section class="flex flex-col gap-4 bg-slate-900 p-4 rounded-sm justify-center items-center">
+    <div class="flex items-center gap-4">
+      <h2 class="text-2xl font-bold font-mono">My Thoughts</h2>
+      <nav class="text-center"><a href="/thoughts/on-working-from-home">On Working From Home</a></nav>
+    </div>
+    <div class="flex items-center gap-4">
+      <h3 class="text-2xl font-bold font-mono">
+        Upcoming Thoughts
+        <span class="block text-xs font-normal text-center text-slate-500">(still processing)</span>
+      </h3>
+      <div class="flex flex-col items-start text-left">
+        <span>On Writing a Task</span>
+        <span>On Semantic HTML Tags</span>
+        <span>On Breaking Down a Task</span>
+        <span>On How I Remote Work</span>
+      </div>
+    </div>
   </section>
   <section class="flex flex-col gap-4">
     <h2 class="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">My Work</h2>
