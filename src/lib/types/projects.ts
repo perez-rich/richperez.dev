@@ -2,9 +2,9 @@ type Skill = 'laravel' | 'php' | 'mysql' | 'html' | 'css' | 'js' | 'vue' | 'reac
 type Area = 'frontend' | 'backend' | 'api' | 'ios';
 
 interface ProjectItem {
-    type: 'client' | 'side project',
-    title: string,
-    url: string,
+    type: 'client' | 'side project'
+    title: string
+    url: string
     image: string,
     description: string,
     skills: Array<Skill>,

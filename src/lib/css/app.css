@@ -6,3 +6,7 @@ section a,
 footer a {
     text-decoration: underline;
 }
+
+code {
+    @apply bg-stone-600 text-white rounded-sm px-1;
+}

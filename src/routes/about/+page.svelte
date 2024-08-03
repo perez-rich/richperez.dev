@@ -1,5 +1,5 @@
 <script>
-	import PageHeading from "$lib/components/ui/PageHeading.svelte";
+	import PageHeading from "$lib/app/components/ui/PageHeading.svelte";
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { all } from '$lib/repositories/projects';
-    import Project from '$lib/components/Project.svelte';
+    import { all } from '$lib/app/repositories/projects';
+    import Project from '$lib/app/components/Project.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +17,10 @@
   <section class="flex flex-col gap-4 bg-slate-900 p-4 rounded-sm justify-center items-center">
     <div class="flex flex-col md:flex-row items-center gap-4">
       <h2 class="text-2xl font-bold font-mono">My Thoughts</h2>
-      <nav class="text-center"><a href="/thoughts/on-working-from-home">On Working From Home</a></nav>
+      <nav class="flex flex-col gap-2 items-start text-left">
+        <a href="/thoughts/on-working-from-home">On Working From Home</a>
+        <a href="/thoughts/on-sveltekit">On SvelteKit</a>
+      </nav>
     </div>
     <div class="flex flex-col md:flex-row items-center gap-4">
       <h3 class="text-2xl font-bold font-mono">
