@@ -19,15 +19,6 @@ const json: Array<ProjectItem> = [
     },
     {
         type: 'client',
-        title: 'Omni Childhood Center',
-        url: 'https://www.occproviderportal.com/',
-        image: '/img/projects/omnichildhoodcenter.png',
-        description: "Omni Childhood Center needed a way to manage their provider portal and backend system. I built a custom solution that allowed them to manage appointments, sessions and various other information.",
-        skills: ['css', 'html', 'js', 'vue', 'mysql', 'laravel'],
-        areas: ['backend', 'frontend', 'api']
-    },
-    {
-        type: 'client',
         title: 'Gifthorse',
         url: 'https://www.gifthorse.co',
         image: '/img/projects/gifthorse.jpg',
