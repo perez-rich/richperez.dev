@@ -2,7 +2,11 @@
 	import GithubLogo from "$lib/images/github-logo.png";
 	import GithubMark from "$lib/images/github-mark.png";
 
-	export let repo: string;
+	interface Props {
+		repo: string;
+	}
+
+	let { repo }: Props = $props();
 	
 	const url = `https://www.github.com/${repo}`;
 </script>

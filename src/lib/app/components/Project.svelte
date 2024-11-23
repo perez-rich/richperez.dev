@@ -2,7 +2,11 @@
     import Badge from './ui/Badge.svelte';
     import Heading from './ui/Heading.svelte';
 
-    export let project: ProjectItem;
+    interface Props {
+        project: ProjectItem;
+    }
+
+    let { project }: Props = $props();
 </script>
 
 <div class="flex flex-col md:flex-row justify-start gap-2 max-w-6xl mx-auto">
