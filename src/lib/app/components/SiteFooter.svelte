@@ -4,7 +4,7 @@
     import apple from "$lib/images/apple-music.png";
 </script>
 
-<footer class="flex justify-between gap-2 border-t border-t-stone-700 p-4 mt-10">
+<footer class="flex flex-col md:flex-row md:justify-between gap-2 border-t border-t-stone-700 p-4 mt-10">
     <div class="py-2">
         <p>
             Made by Rich with <a href="https://kit.svelte.dev" target="_blank">SvelteKit</a> &
