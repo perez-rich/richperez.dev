@@ -1,17 +1,18 @@
 <script lang="ts">
-    import { all } from '$lib/app/repositories/projects';
-    import Project from '$lib/app/components/Project.svelte';
+  import { all } from "$lib/app/repositories/projects";
+  import Project from "$lib/app/components/Project.svelte";
 </script>
 
 <svelte:head>
-    <title>Rich Perez - Web Developer</title>
+  <title>Rich Perez - Web Developer</title>
 </svelte:head>
 
 <div class="flex flex-col gap-20">
   <section class="mx-auto max-w-2xl font-mono text-xl md:text-2xl text-center">
-    <img class="rounded-full mx-auto my-6 md:my-10" src="/img/rich.jpg" alt="rich perez" width="100" height="100" />
+    <img class="rounded-full mx-auto my-6 md:my-10" src="/img/rich.jpg" alt="rich perez" width="150" height="150" />
     <p>
-      👋🏽 My name is <a href="/about">Rich Perez</a> and welcome to my space on the internet. I'm a dad, <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for clients and my own side projects.
+      👋🏽 My name is <a href="/about">Rich Perez</a> and welcome to my space on the internet. I'm a dad,
+      <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for clients and my own side projects.
     </p>
   </section>
   <section class="flex flex-col gap-4 bg-slate-900 p-4 rounded-sm justify-center items-center">
@@ -39,7 +40,7 @@
     <h2 class="text-3xl font-bold font-mono text-center border-b border-slate-500 pb-4">My Work</h2>
     <div class="flex flex-col gap-10">
       {#each all() as project (project.title)}
-          <Project project={project} />
+        <Project {project} />
       {/each}
     </div>
   </section>
