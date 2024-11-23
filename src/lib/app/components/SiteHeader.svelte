@@ -2,9 +2,9 @@
   <a href="/">
     <img src="/img/site-logo.png" alt="site logo" width="300" height="46" />
   </a>
-  <nav class="flex gap-6 text-white uppercase justify-center">
-    <a class="btn btn-link hover:underline" href="/about">About</a>
-    <a class="btn btn-link hover:underline" href="/colophon">Colophon</a>
-    <a class="btn btn-link hover:underline" href="/uses">Uses</a>
+  <nav class="flex gap-6 uppercase justify-center">
+    <a class="btn btn-link text-white hover:underline" href="/about">About</a>
+    <a class="btn btn-link text-white hover:underline" href="/colophon">Colophon</a>
+    <a class="btn btn-link text-white hover:underline" href="/uses">Uses</a>
   </nav>
 </header>
