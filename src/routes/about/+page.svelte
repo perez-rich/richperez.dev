@@ -17,7 +17,7 @@
 <section class="mx-auto max-w-2xl flex flex-col gap-2">
 	<h2 class="text-2xl font-bold font-mono">Connect with Me</h2>
 	<ul class="px-4 list-disc flex flex-col gap-2">
-		<li>Follow me on <a href="https://www.threads.net/@imperez5" target="_blank">Threads</a>.</li>
+		<li>Follow me on <a href="https://bsky.app/profile/imperez.com" target="_blank">Bluesky</a>.</li>
 		<li>Network with me on <a href="https://www.linkedin.com/in/imperez/" target="_blank">LinkedIn</a></li>
 		<li>
 			Listen to music with me on <a href="https://music.apple.com/profile/imperez" target="_blank">Apple Music</a>
