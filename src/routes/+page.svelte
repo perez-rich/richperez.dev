@@ -12,7 +12,7 @@
     <img class="rounded-full mx-auto my-6 md:my-10" src="/img/rich.jpg" alt="rich perez" width="150" height="150" />
     <p>
       👋🏽 My name is <a href="/about">Rich Perez</a> and welcome to my space on the internet. I'm a dad,
-      <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for clients and my own side projects.
+      <a href="/wrestling">wrestling</a> fan and I enjoy creating web products for people to use.
     </p>
   </section>
   <section class="flex flex-col gap-4 bg-slate-900 p-4 rounded-sm justify-center items-center">
