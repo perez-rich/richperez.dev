@@ -12,7 +12,7 @@
         </p>
     </div>
     <nav class="flex gap-4">
-        <a href="https://bsky.app/profile/imperez.com" target="_blank">
+        <a href="https://bsky.app/profile/richperez.dev" target="_blank">
             <img src={bluesky} alt="Rich's Bluesky Profile" class="w-10 h-10" />
         </a>
         <a class="py-2" href="https://github.com/imperez" target="_blank">
