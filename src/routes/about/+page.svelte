@@ -33,12 +33,6 @@
             >.
         </li>
         <li>
-            Network with me on <a
-                href="https://www.linkedin.com/in/imperez/"
-                target="_blank">LinkedIn</a
-            >
-        </li>
-        <li>
             Get jiggy with me on <a
                 href="https://music.apple.com/profile/imperez"
                 target="_blank">Apple Music</a
