@@ -1,5 +1,15 @@
 const json: Array<ProjectItem> = [
     {
+        title: 'Simple Sound',
+        url: 'https://github.com/perez-rich/simple-sound/',
+        image: '/img/projects/simple-sound.jpg',
+    },
+    {
+        title: 'SvelteKit Template',
+        url: 'https://github.com/perez-rich/sveltekit-template/',
+        image: '/img/projects/sveltekit-template.jpg',
+    },
+    {
         title: 'The Daily Smark',
         url: 'https://www.thedailysmark.com/',
         image: '/img/projects/thedailysmark.jpg',
