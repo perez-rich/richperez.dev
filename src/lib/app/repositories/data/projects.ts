@@ -1,5 +1,20 @@
 const json: Array<ProjectItem> = [
     {
+        title: 'Specialty Lighting',
+        url: 'https://www.specialty-lighting.com',
+        image: '/img/projects/specialtylighting.jpg',
+    },
+    {
+        title: 'FA Mag',
+        url: 'https://www.fa-mag.com',
+        image: '/img/projects/famag.jpg',
+    },
+    {
+        title: 'Gifthorse',
+        url: 'https://www.gifthorse.co',
+        image: '/img/projects/gifthorse.jpg',
+    },
+    {
         title: 'Simple Sound',
         url: 'https://github.com/perez-rich/simple-sound/',
         image: '/img/projects/simple-sound.jpg',
