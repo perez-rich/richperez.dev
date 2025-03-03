@@ -15,16 +15,6 @@ const json: Array<ProjectItem> = [
         image: '/img/projects/gifthorse.jpg',
     },
     {
-        title: 'Simple Sound',
-        url: 'https://github.com/perez-rich/simple-sound/',
-        image: '/img/projects/simple-sound.jpg',
-    },
-    {
-        title: 'SvelteKit Template',
-        url: 'https://github.com/perez-rich/sveltekit-template/',
-        image: '/img/projects/sveltekit-template.jpg',
-    },
-    {
         title: 'The Daily Smark',
         url: 'https://www.thedailysmark.com/',
         image: '/img/projects/thedailysmark.jpg',
@@ -38,6 +28,16 @@ const json: Array<ProjectItem> = [
         title: 'Heels vs Faces',
         url: 'https://www.heelsvsfaces.com/',
         image: '/img/projects/heelsvsfaces.png',
+    },
+    {
+        title: 'Simple Sound',
+        url: 'https://github.com/perez-rich/simple-sound/',
+        image: '/img/projects/simple-sound.jpg',
+    },
+    {
+        title: 'SvelteKit Template',
+        url: 'https://github.com/perez-rich/sveltekit-template/',
+        image: '/img/projects/sveltekit-template.jpg',
     },
 ];
 
