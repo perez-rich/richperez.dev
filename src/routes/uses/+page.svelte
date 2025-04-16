@@ -15,8 +15,7 @@
 	<h2 class="text-2xl font-bold font-mono">Coding Tools</h2>
 	<ul class="px-4 list-disc flex flex-col gap-2">
 		<li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> is my editor I use daily
-			across multiple projects. I've also started trying out <a href="https://www.jetbrains.com/fleet/"
-																	  target="_blank">Jetbrains Fleet</a> editor.
+			across multiple projects. I've also started trying out <a href="https://www.zed.dev/" target="_blank">Zed</a> editor.
 		</li>
 		<li>I use <a href="https://www.apple.com/safari/" target="_blank">Safari</a> as my main browser. I'm loving it's
 			tight integration across Apple devices and of course the privacy features.
