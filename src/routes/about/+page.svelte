@@ -22,8 +22,8 @@
     <ul class="px-4 list-disc flex flex-col gap-2">
         <li>
             Follow me on <a
-                href="https://bsky.app/profile/richperez.dev"
-                target="_blank">Bluesky</a
+                href="https://www.threads.com/@imperez5"
+                target="_blank">Threads</a
             >.
         </li>
         <li>
