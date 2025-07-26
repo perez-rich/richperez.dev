@@ -17,9 +17,6 @@
         </p>
     </div>
     <nav class="flex gap-4">
-        <a href="https://bsky.app/profile/richperez.dev" target="_blank">
-            <img src={bluesky} alt="Rich's Bluesky Profile" class="w-10 h-10" />
-        </a>
         <a class="py-2" href="https://github.com/perez-rich" target="_blank">
             <img src={github} alt="Rich's Github Profile" class="w-6 h-6" />
         </a>
