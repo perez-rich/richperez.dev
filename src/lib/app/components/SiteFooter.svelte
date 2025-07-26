@@ -1,5 +1,5 @@
 <script lang="ts">
-    import bluesky from "$lib/images/bluesky-logo.png";
+    import threads from "$lib/images/threads.png";
     import github from "$lib/images/github-mark-white.png";
     import apple from "$lib/images/apple-music.png";
 </script>
@@ -17,8 +17,8 @@
         </p>
     </div>
     <nav class="flex gap-4">
-        <a class="py-2" href="https://github.com/perez-rich" target="_blank">
-            <img src={github} alt="Rich's Github Profile" class="w-6 h-6" />
+        <a class="py-2" href="https://www.threads.com/@imperez5" target="_blank">
+            <img src={threads} alt="Rich's Threads Profile" class="w-6 h-6" />
         </a>
         <a
             class="py-2"
